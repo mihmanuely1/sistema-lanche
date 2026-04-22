@@ -1,3 +1,0 @@
-CREATE TABLE produtos;
-CREATE TABLE estoque;
-CREATE TABLE logs;
