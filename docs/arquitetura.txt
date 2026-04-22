@@ -1,0 +1,1 @@
+Arquitetura monolítica com front-end Windows Forms e banco SQLite local.
