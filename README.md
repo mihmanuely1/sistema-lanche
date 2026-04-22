@@ -9,7 +9,7 @@ Gerenciar estoque de produtos alimentícios com controle de validade, temperatur
 
 ---
 
-## 🛠 Tecnologias
+##  Tecnologias
 - C#
 - Windows Forms
 - SQLite
