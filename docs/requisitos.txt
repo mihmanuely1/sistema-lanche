@@ -1,0 +1,1 @@
+Sistema de controle de estoque com validação de temperatura, vendas e logs.
