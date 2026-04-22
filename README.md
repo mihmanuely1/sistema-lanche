@@ -1,22 +1,22 @@
-# 🍔 Sistema Lanche
+# Sistema Lanche
 
 Sistema acadêmico para controle de estoque e vendas utilizando C# + Windows Forms + SQLite.
 
 ---
 
-##  Objetivo
+## Objetivo
 Gerenciar estoque de produtos alimentícios com controle de validade, temperatura, vendas online/offline e logs de auditoria.
 
 ---
 
-##  Tecnologias
+## Tecnologias
 - C#
 - Windows Forms
 - SQLite
 
 ---
 
-##  Funcionalidades
+## Funcionalidades
 - Cadastro de produtos no estoque  
 - Controle de temperatura (2°C a 8°C)  
 - Controle de validade  
@@ -28,5 +28,5 @@ Gerenciar estoque de produtos alimentícios com controle de validade, temperatur
 
 ---
 
-## 📊 Observações
+## Observações
 Projeto desenvolvido para fins acadêmicos.
