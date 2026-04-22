@@ -1,32 +1,29 @@
-# Sistema Lanche
+ Sistema Lanche
 
-Sistema acadêmico para controle de estoque e vendas utilizando C# + Windows Forms + SQLite.
+Sistema acadêmico desenvolvido como parte da disciplina de Desenvolvimento de Sistemas, com o objetivo de simular o controle de estoque e vendas de uma rede de lanches fictícia, considerando regras comuns de operação como validade de produtos, controle de temperatura e registro de vendas.
 
----
+ Objetivo
 
-## Objetivo
-Gerenciar estoque de produtos alimentícios com controle de validade, temperatura, vendas online/offline e logs de auditoria.
+O sistema foi desenvolvido para gerenciar um pequeno estoque de produtos alimentícios, simulando situações do dia a dia de um ambiente comercial, como controle de itens perecíveis, atualização de estoque e registro de operações.
 
----
+ Tecnologias utilizadas
+C#
+Windows Forms
+SQLite
+ Funcionalidades
+Cadastro de produtos no estoque
+Controle de quantidade de itens
+Validação de temperatura (entre 2°C e 8°C)
+Controle de data de validade dos produtos
+Registro de vendas
+Simulação de modo offline para vendas
+Sincronização de vendas offline
+Exclusão de registros com verificação por token (autenticação simples simulada)
+Registro de logs para auditoria das operações
+ Observação sobre segurança (MFA simplificado)
 
-## Tecnologias
-- C#
-- Windows Forms
-- SQLite
+O sistema utiliza uma verificação por token como forma de simulação de autenticação para operações sensíveis, como exclusão de registros. Essa abordagem foi implementada apenas para fins acadêmicos, representando de forma simplificada o conceito de MFA (Multi-Factor Authentication).
 
----
+ Observações gerais
 
-## Funcionalidades
-- Cadastro de produtos no estoque  
-- Controle de temperatura (2°C a 8°C)  
-- Controle de validade  
-- Registro de vendas  
-- Modo offline de vendas  
-- Sincronização de vendas offline  
-- Exclusão com MFA (token)  
-- Logs de auditoria  
-
----
-
-## Observações
-Projeto desenvolvido para fins acadêmicos.
+O projeto foi desenvolvido com foco no aprendizado de estruturação de sistemas, integração com banco de dados e aplicação de regras de negócio em um cenário prático.
